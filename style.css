@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Dégradé vibrant */
+    color: #fff; /* Texte blanc pour un bon contraste */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7); /* Fond sombre pour l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em; /* Taille de texte plus grande */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff; /* Lien blanc */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Transition pour le lien */
+}
+
+nav a:hover {
+    color: #ffdd57; /* Changement de couleur au survol */
+    transform: scale(1.1); /* Légère augmentation de taille au survol */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Fond clair avec transparence */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+    color: #ffdd57; /* Couleur dorée pour les titres de section */
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffdd57; /* Couleur dorée pour les sous-titres */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: calc(25% - 10px);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Ajout d'effets */
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7); /* Fond sombre pour le pied de page */
+    color: #fff; /* Texte blanc */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Centrer la vidéo */
+video {
+    display: block;
+    margin: 20px auto; /* Centre la vidéo */
+}
